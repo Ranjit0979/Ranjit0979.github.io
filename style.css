@@ -8,14 +8,37 @@
   scroll-behavior: smooth;
 }
 .inv{
-  width:50%;
+  width:60%;
   color: rgb(89, 94, 97);
-  margin-left: 28%;
+  margin: auto;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
+  align-items: center; 
+}
+
+
+.inv>div{
+  display: flex;
+  justify-content:center;
   align-items: center;
+}
+
+#skillset {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3,30%);
+  grid-template-rows: repeat(3,30%);
+  gap: 20 20;
+  margin: auto;
   
 }
+
+#skillset>div img{
+  width: 90%;
+  height: 90%;
+}
+
 section {
   padding: 100px 200px 100px 200px;
 }
@@ -579,14 +602,24 @@ body {
 
 
 @media screen and (min-width: 1054px) and (max-width: 1253px){
-.inv{
-  width:50%;
-  color: rgb(71, 71, 75);
-  margin-left: 28%;
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-}
+  .inv{
+    width: 80%;
+    color: rgb(89, 94, 97);
+    margin: auto;
+    display: flex;
+   
+    align-items: center;
+  
+    
+  }
+  
+  
+  .inv>div{
+    display: flex;
+    width: auto;
+    justify-content:center;
+    align-items: center;
+  }
 section {
   padding: 100px 200px 100px 200px;
 }
@@ -1278,6 +1311,34 @@ body {
   .contact-form {
     padding: 35px 40px;
   }
+  .inv{
+    display: inline;
+  }
+
+  .inv>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+  }
+  .inv>div>img{
+    padding-right: 10px;
+  }
+
+  #skillset {
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: repeat(3,30%);
+    gap: 20 20;
+    
+    margin: auto;
+    justify-content: center;
+    
+  }
+  
 }
 
 .scrollToTop-btn {
@@ -1552,13 +1613,14 @@ body {
   .mainDiv{
     display: block;
     height: 900px;
+    margin-top: -5%;
   }
  
   .projectImage{
     margin: auto;
     width: 210%;
     height: 60%;
-    margin-bottom: -225%;
+    margin-bottom: -175%;
   }
 
   #projectDes{
@@ -1581,5 +1643,40 @@ body {
     width: 80%;
     margin-top: 4%;
     height: 100%;
+  }
+
+  .inv{
+    display: inline;
+    font-size: 15px;
+  }
+
+  .inv>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .inv>div>img{
+    padding-right: 5px;
+  }
+
+  #skillset {
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    grid-template-rows: repeat(5,20%);
+    gap: 20 20;
+    /* border: 1px green solid; */
+    margin: auto;
+    justify-content: center;
+    
+  }
+
+  #skillset>div img{
+   
+    width: 80%;
+    height: 80%;
+    
   }
 }
