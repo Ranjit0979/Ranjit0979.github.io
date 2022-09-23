@@ -628,7 +628,21 @@ body {
   text-decoration: none;
 }
 
+.container .github-stats{
+  display: flex;
+  margin-top: 3%;
+  justify-content: center;
+}
 
+
+#graph{
+  border-radius: 5px;
+  width: 100%;
+}
+
+#graph img{
+  width: 100%;
+}
 
 
 /* added media query */
@@ -1815,5 +1829,26 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+  }
+
+  
+  .container .github-stats{
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+  }
+
+  .container .github-stats img{
+    width: 100%;
+  }
+  
+  
+  #graph{
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  #graph img{
+    width: 100%;
   }
 }
