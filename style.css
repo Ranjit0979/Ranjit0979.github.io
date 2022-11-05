@@ -2134,6 +2134,14 @@ body {
     margin-top: 0%;
   }
 
+  #projectDes{
+    font:10px;
+  }
+
+  #projectDes h1{
+    margin-top: -50px;
+    font-size: 25px;
+  }
   .btns{
     height: 60px;
   }
