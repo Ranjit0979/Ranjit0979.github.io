@@ -301,11 +301,16 @@
                                 <img src="https://github-readme-stats.vercel.app/api?username=Ranjit0979&theme=flag-india&show_icons=true&count_private=true"
                                     alt="Github Stats" />
                             </div>
-                        <div id="graph">
+                        <!-- <div id="graph">
                             <img src="https://activity-graph.herokuapp.com/graph?username=Ranjit0979&bg_color=ffffff&color=000080&line=138808&point=ff9933&area=true"
                                 alt="Github Graph" />
-                        </div>
+                        </div> -->
                 </div>
+                <h4 class="mb-0">
+                    GitHub contribution calendar</h4>
+                 <div class="calendar">
+                  </div>
+              
             </div>
         </section>
 
@@ -402,7 +407,12 @@
     <!-- FOOTER -->
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <script>
+      GitHubCalendar(".calendar", "Ranjit0979", { responsive: true });
+    </script>
 
 </body>
 
 </html>
+
