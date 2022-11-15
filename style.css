@@ -2063,7 +2063,7 @@ body {
     width: 100%;
   }
 }
- @media screen and (min-width: 200px) and (max-width: 399px){
+ @media screen and (min-width: 250px) and (max-width: 399px){
 
   header .navigation.active {
     z-index: 888;
@@ -2118,14 +2118,15 @@ body {
   .mainDiv{
     display: block;
     height: 900px;
-    margin-top: -5%;
+    margin-top: 0%;
+    margin-bottom: 20%;
   }
  
   .projectImage{
     margin: auto;
     width: 210%;
     height: 60%;
-    margin-bottom: -200%;
+    margin-bottom: -175%;
   }
 
   #projectDes{
@@ -2478,5 +2479,23 @@ body {
  .calendar{
   width: fit-content;
  }
+
+ .btnIs {
+  height: 12%;
+  margin-top: 0%;
+  width: 57%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns {
+  width: 45%;
+  height: 100%;
+  font-size: 18px;
+  padding: 3px 2px;
+  border: none;
+  border-radius: 5% 5% 5% 5% ;
+  font-weight: bolder;
+}
   
 }
