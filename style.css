@@ -2118,8 +2118,8 @@ body {
   .mainDiv{
     display: block;
     height: 900px;
-    margin-top: 0%;
-    margin-bottom: 20%;
+    margin-top: 4%;
+    margin-bottom: 25%;
   }
  
   .projectImage{
@@ -2481,8 +2481,8 @@ body {
  }
 
  .btnIs {
-  height: 12%;
-  margin-top: 0%;
+  height: 10%;
+  margin-top: -3%;
   width: 57%;
   display: flex;
   justify-content: space-between;
@@ -2490,11 +2490,11 @@ body {
 
 .btns {
   width: 45%;
-  height: 100%;
-  font-size: 18px;
+  height: 80%;
+  font-size: 13px;
   padding: 3px 2px;
   border: none;
-  border-radius: 5% 5% 5% 5% ;
+  border-radius: 3% 3% 3% 3% ;
   font-weight: bolder;
 }
   
