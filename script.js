@@ -66,6 +66,6 @@ window.addEventListener("scroll", function(){
   }
 
   function myResumeFun(){
-      return  window.open('ranjit_cv.pdf', '_blank');
+      return  window.open('Ranjit_Lagad_Resume.pdf', '_blank');
     
   }
